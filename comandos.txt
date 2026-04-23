@@ -1,0 +1,7 @@
+git init
+git config --global user.name "Uzrtu"
+git config --global user.email "0000112983007xsp@al.educacao.sp.gov.br"
+git branch -M main
+git remote add origin https://github.com/Uzrtu/logica.git
+
+git pull origin main
