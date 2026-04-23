@@ -5,3 +5,7 @@ git branch -M main
 git remote add origin https://github.com/Uzrtu/logica.git
 
 git pull origin main
+
+git add .  // pega todas as atualizações
+git commit -m "deve-passar-uma-mensagenm-aqui"
+git push origin main // pega as atualizações e manda para o github
