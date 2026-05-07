@@ -1,0 +1,14 @@
+algoritmo "Laços de repetição"
+var
+  mensagem: caractere
+
+inicio
+  escreva("Mensagem: ")
+  leia(mensagem)
+  enquanto mensagem <> "s" faca
+    escreval(mensagem)
+    escreva(" Próxima mensagem [s para sair]: ")
+    leia(mensagem)
+  fimenquanto
+  escreval(" Saiu do laço!")
+fimalgoritmo
