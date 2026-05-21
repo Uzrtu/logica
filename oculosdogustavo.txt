@@ -1,0 +1,16 @@
+algoritmo "OculosDoGustavo"
+var
+  lente: logico
+  sair: caractere
+inicio
+  enquanto sair <> "sim" faca
+    escreval("Qualquer coisa?")
+    leia(lente)
+    se lente = verdadeiro entao
+      escreval("Caiu!")
+    senao
+      escreval("Não caiu! Que tistreza!")
+    fimse
+    escreval("Meter o foda-se?")
+    fimenquanto
+  fimalgoritmo
