@@ -15,4 +15,4 @@ for i in range(0, 12, 2):
 for i in range(10, -1, -1):
     print(i)
 else:
-    print("Lançar!")
+    print("Lançar!") 
